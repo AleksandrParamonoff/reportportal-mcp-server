@@ -70,5 +70,5 @@ jobs:
           version: latest
           args: release --clean
         env:
-          REPOSITORY_NAME: reportportal/mcp-server # Docker repository name
+          REPOSITORY_NAME: aleksandrparamonoff/reportportal-mcp-server # Docker repository name
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token for authentication
