@@ -33,7 +33,7 @@ dockers:
     use: buildx
     build_flag_templates:
       - "--platform=linux/amd64"
-      - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/reportportal/reportportal-mcp-server/main/README.md"
+      - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/AleksandrParamonoff/reportportal-mcp-server/main/README.md"
       - "--label=io.artifacthub.package.logo-url=https://avatars.githubusercontent.com/u/17636279"
       - '--label=io.artifacthub.package.maintainers=[{"name":"Andrei Varabyeu","email":"andrei_varabyeu@epam.com"},{"name":"Aleksandr Paramonov","email":"aleksandr_paramonov@epam.com"}]'
       - "--label=org.opencontainers.image.description=ReportPortal MCP Server"
@@ -50,7 +50,7 @@ dockers:
     use: buildx
     build_flag_templates:
       - "--platform=linux/arm64"
-      - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/reportportal/reportportal-mcp-server/main/README.md"
+      - "--label=io.artifacthub.package.readme-url=https://raw.githubusercontent.com/AleksandrParamonoff/reportportal-mcp-server/main/README.md"
       - "--label=io.artifacthub.package.logo-url=https://avatars.githubusercontent.com/u/17636279"
       - '--label=io.artifacthub.package.maintainers=[{"name":"Andrei Varabyeu","email":"andrei_varabyeu@epam.com"},{"name":"Aleksandr Paramonov","email":"aleksandr_paramonov@epam.com"}]'
       - "--label=org.opencontainers.image.description=ReportPortal MCP Server"
@@ -76,10 +76,10 @@ docker_manifests:
 ## Uncomment the following sections if you want to create Homebrew Casks or NFPMS (Deb/RPM packages).
 #homebrew_casks:
 #  - description: "ReportPortal MCP Server"
-#    homepage: "https://github.com/reportportal/reportportal-mcp-server"
+#    homepage: "https://github.com/AleksandrParamonoff/reportportal-mcp-server"
 #    # Repository to push the generated files to.
 #    repository:
-#      owner: reportportal
+#      owner: AleksandrParamonoff
 #      name: reportportal-mcp-server
 #
 #nfpms:
@@ -90,7 +90,7 @@ docker_manifests:
 #    maintainer: "ReportPortal Team <support@reportportal.io>"
 #    description: "ReportPortal MCP Server"
 #    vendor: "ReportPortal"
-#    homepage: "https://github.com/reportportal/reportportal-mcp-server"
+#    homepage: "https://github.com/AleksandrParamonoff/reportportal-mcp-server"
 #    license: "Apache-2.0"
 
 changelog:
@@ -98,5 +98,5 @@ changelog:
 
 release:
   github:
-    owner: reportportal
+    owner: AleksandrParamonoff
     name: reportportal-mcp-server
